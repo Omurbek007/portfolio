@@ -6,7 +6,6 @@
     box-sizing: border-box;
     width: 100%;
     font-family: "EB Garamond", serif;
-    font-weight: 400;
 }
 
 .container {
@@ -33,10 +32,13 @@ h1 {
     margin-bottom: 0.5em;
     
 }
+header h2 {
+    border: none;
+}
 h2 {
     font-size: 1.9em;
-    margin-bottom: 0.5em;
-    color: blue;
+    color: #3498DB;
+    border-bottom: 4px solid #3498DB;
 }
 .profile-img {
     width: 350px;
@@ -54,12 +56,77 @@ header img {
 .contact-section {
     background-color: #333;
     color: #fff;
+    font-weight: bold;
     display: grid;
+    align-items: center;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 2fr 2fr;
     padding: 1em 2em;
 }
-a {
+.contact-section a {
+    font-size: .9em;
+    color: #fff;
+}
+header a, .contact-section a:visited{
     color: #fff;
     text-decoration: none;
+}
+a:visited {
+    color: #2e79a2;
+}
+
+main span {
+    background-color: #333;
+    color: #fff;
+    font-weight: 700;
+    padding: 2.5px 6px;
+    border-radius: 8px;
+    line-height: 2em;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.5em;
+}
+.skills-section {
+    padding-left: 2em;
+}
+.skills-section h2 {
+    margin-bottom: 5px;
+}
+h3 {
+    font-size: 1.5em;
+    color: #0d5565;
+}
+.langs {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.lang-heading {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.lang p {
+    font-size: 1.5em;
+    /* background-color: rgb(140, 161, 237); */
+}
+.lang strong {
+    color: rgb(64, 136, 181);
+}
+
+ul {
+    margin-left: 1.2em;
+}
+.work-experience {
+    padding-top: 1em;
+    margin-top: 2.9em;
+}
+h4 {
+    font-size: 1.1em;
+    color: #0d5565;
+}
+.project-links h4{
+    margin-top: 2em;
+    border-bottom: 1px solid #0d5565;
 }
