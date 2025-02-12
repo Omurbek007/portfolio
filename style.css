@@ -5,7 +5,9 @@
     box-sizing: border-box;
     font-family: "EB Garamond", serif;
 }
-
+a {
+    color: #ae8c1c;
+}
 .container {
     width: 100%;
     max-width: 800px;
@@ -87,6 +89,9 @@ main {
     flex-direction: row;
     justify-content: space-between;
 }
+main a strong {
+    font-size: 0.9em;
+}
 .projects a strong{
     font-size: 0.8em;
 }
@@ -100,12 +105,15 @@ main {
     margin-bottom: 5px;
 }
 h3 {
-    font-size: 1em;
+    font-size: 1.3em;
     color: #0d5565;
 }
 .langs {
     display: grid;
     grid-template-columns: 2fr 2fr;
+}
+.langs strong {
+    font-size: 0.8em;
 }
 .lang-heading {
     grid-column-start: 1;
@@ -133,6 +141,7 @@ h4 {
     margin-top: 2em;
     border-bottom: 1px solid #0d5565;
 }
+
 
 @media print {
     body {
