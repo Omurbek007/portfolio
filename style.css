@@ -11,7 +11,6 @@
     max-width: 800px;
     margin: 0 auto;
     font-family: inherit;
-    padding: 20px;
 }
 
 
@@ -37,7 +36,7 @@ header h2 {
     border: none;
 }
 h2 {
-    font-size: 1.9em;
+    font-size: 1.3em;
     color: #3498DB;
     border-bottom: 4px solid #3498DB;
 }
@@ -88,6 +87,9 @@ main {
     flex-direction: row;
     justify-content: space-between;
 }
+.projects a strong{
+    font-size: 0.8em;
+}
 .education-section {
     width: 181%;
 }
@@ -98,7 +100,7 @@ main {
     margin-bottom: 5px;
 }
 h3 {
-    font-size: 1.5em;
+    font-size: 1em;
     color: #0d5565;
 }
 .langs {
@@ -137,7 +139,6 @@ h4 {
       width: 210mm; /* Standard A4 width */
       height: 297mm; /* Standard A4 height */
       margin: 0; /* Remove margins */
-      padding: 10mm; /* Add some padding for safety */
     }
   
     .container {
